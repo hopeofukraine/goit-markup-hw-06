@@ -561,35 +561,57 @@
       </div>
     </footer>
     <!-- Modal Window -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="modal-form">
-          <label class="form-item">
-            Username
-            <input type="text" name="username" autofocus />
+        <strong class="modal-title"
+          >Leave your contacts and we will call you back</strong
+        >
+        <form class="modal-form" name="modal_form">
+          <!-- Name Field -->
+          <label class="modal-form-label"
+            >Name
+            <div class="modal-form-group">
+              <input class="modal-form-field" type="text" />
+              <svg class="modal-form-icon" width="" height="">
+                <use href=""></use>
+              </svg>
+            </div>
           </label>
-          <label>
-            Phone number
-            <input type="tel" name="phone_number" />
+          <!-- Phone Field -->
+          <label class="modal-form-label"
+            >Phone
+            <div class="modal-form-group">
+              <input class="modal-form-field" type="tel" />
+              <svg class="modal-form-icon" width="" height="">
+                <use href=""></use>
+              </svg>
+            </div>
           </label>
-          <label>
-            Email
-            <input type="email" name="email" />
+          <!-- Email Field -->
+          <label class="modal-form-label"
+            >Email
+            <div class="modal-form-group">
+              <input class="modal-form-field" type="email" />
+              <svg class="modal-form-icon" width="" height="">
+                <use href=""></use>
+              </svg>
+            </div>
           </label>
-          <label>
-            Comment
+          <!-- Comment Field -->
+          <label class="modal-form-label"
+            >Comment
             <textarea
-              name="feedback"
-              rows="5"
-              placeholder="Text input"
+              class="modal-form-comment"
+              name=""
+              id=""
+              rows="6"
             ></textarea>
           </label>
-          <button type="submit">Send</button>
         </form>
       </div>
     </div>
