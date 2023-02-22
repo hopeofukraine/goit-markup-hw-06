@@ -495,10 +495,11 @@ button {
   display: block;
   content: " ";
   margin-left: 16px;
-  background-image: url(../images/icons/icons.svg#icon-subscribe);
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icons/subscribe-icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .subscribe-input {
   width: 264px;
@@ -509,6 +510,7 @@ button {
   background-color: var(--primary-txt-cl);
   padding: 8px 16px;
 }
+
 /* PORTFOLIO Styles */
 
 /* Filter Section */
@@ -700,6 +702,7 @@ Modal Window
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: 2px solid transparent;
+  margin-top: 4px;
   outline-offset: -1px;
   transition: outline-color var(--trns-hov);
 }
@@ -772,10 +775,10 @@ Modal Window
 }
 .custom-checkbox-check {
   fill: var(--light-bg-cl);
-  opacity: 0;
+  opacity: 1;
 }
 .modal-form-checkbox:checked + .custom-checkbox > .custom-checkbox-check {
-  opacity: 1;
+  opacity: 0;
 }
 .modal-form-desc {
   font-family: "Roboto";
@@ -812,20 +815,3 @@ Modal Window
 .modal-form-button:hover {
   background-color: var(--accent-bg-cl);
 }
-
-/* .custom-checkbox {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border: 2px solid #2a2a2a;
-  border-radius: 2px;
-}
-
-.modal-form-checkbox:checked + .custom-checkbox {
-  background-image: url(../images/icons/icons.svg#icon-vector);
-  background-size: contain;
-  background-color: var(--btn-bg-cl);
-  border-color: transparent;
-  border-color: var(--btn-bg-cl);
-  background-origin: border-box;
-} */
