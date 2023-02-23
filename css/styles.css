@@ -491,15 +491,9 @@ button {
 .subscribe-button:focus {
   background-color: var(--accent-bg-cl);
 }
-.subscribe-button::after {
+.subscribe-icon {
   display: block;
-  content: " ";
   margin-left: 16px;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/icons/subscribe-icon.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .subscribe-input {
   width: 264px;
