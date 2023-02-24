@@ -504,6 +504,7 @@ button {
   margin-right: 24px;
   background-color: var(--primary-txt-cl);
   padding: 8px 16px;
+  outline: none;
 }
 
 /* PORTFOLIO Styles */
